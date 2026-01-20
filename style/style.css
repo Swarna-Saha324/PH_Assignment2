@@ -150,4 +150,64 @@ body {
     gap:5px;
 }
 
+/* ================= ABOUT SECTION ================= */
+.about-section {
+  padding: 120px 0;
+  background: radial-gradient(circle at center, #230e3d, #140721);
+  text-align: center;
+  margin-bottom:1px solid rgb(11, 0, 1); 
+}
+
+/* Center Card */
+.about-box {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 60px;
+  /* background: linear-gradient(180deg, rgba(145,0,248,0.12), rgba(26,11,46,0.9)); */
+  border-radius: 16px;
+  margin-top:1px solid rgba(65, 37, 103, 1); 
+}
+
+/* Title */
+.about-box h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.about-text {
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.about-text.muted {
+  opacity: 0.6;
+}
+
+/* ================= STATS ================= */
+.stats {
+ margin-top: 1px solid rgba(65, 37, 103, 1);
+  max-width: 900px;
+  margin: 120px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+/* Single stat */
+.stat h3 {
+  font-size: 36px;
+  color: #00ff88;
+  margin-bottom: 6px;
+}
+
+.stat span {
+  font-size: 12px;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
+
+
 
