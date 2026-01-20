@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "intern"
+}
+
+.inter_font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  background: #1a0b2e;
+  color: #fff;
+}
+
+/* Navber */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 70px;
+  border-bottom: 1px solid rgba(65, 37, 103, 1);
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #fb09b4;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+
+.nav-btn {
+  background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+  border: none;
+  padding: 10px 22px;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* HERO  */
+.hero {
+  position: relative;
+  height: 90vh;
+  background: url("../assets/hero-bg.png") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+/* Circle */
+.circle {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: url("../assets/hero-circle.png") center/cover no-repeat;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.circle img {
+  width: 100px;
+}
+
+/* NEW badge */
+.badge {
+  position: absolute;
+  top:20px;
+  right: 30px;
+  background: #00ff88;
+  color: #000;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+
+}
+
+/* Text */
+.hero h1 {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.hero p {
+  font-size: 14px;
+  color: #bdbdbd;
+  max-width: 500px;
+  margin: 10px auto 25px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.spotify {
+  background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+  border: none;
+  padding: 10px 22px;
+  border-radius: 25px;
+  color: #fff;
+}
+
+
+.subscribe {
+  display: flex;
+  background: transparent;
+  border: 1px solid #00ff88;
+  color: #00ff88;
+  padding: 10px 22px;
+  border-radius: 25px;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:5px;
+}
+
+
