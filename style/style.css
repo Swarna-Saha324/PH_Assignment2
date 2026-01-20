@@ -155,7 +155,7 @@ body {
   padding: 120px 0;
   background: radial-gradient(circle at center, #230e3d, #140721);
   text-align: center;
-  margin-bottom:1px solid rgb(11, 0, 1); 
+  
 }
 
 /* Center Card */
@@ -165,7 +165,8 @@ body {
   padding: 50px 60px;
   /* background: linear-gradient(180deg, rgba(145,0,248,0.12), rgba(26,11,46,0.9)); */
   border-radius: 16px;
-  margin-top:1px solid rgba(65, 37, 103, 1); 
+  
+  
 }
 
 /* Title */
@@ -179,14 +180,14 @@ body {
   font-size: 16px;
   line-height: 26px;
   opacity: 0.8;
-  margin-bottom: 15px;
+  margin-bottom: 15px ;
 }
 
 .about-text.muted {
   opacity: 0.6;
 }
 
-/* ================= STATS ================= */
+/* /* ================= STATS ================= */
 .stats {
  margin-top: 1px solid rgba(65, 37, 103, 1);
   max-width: 900px;
@@ -196,7 +197,7 @@ body {
   gap: 40px;
 }
 
-/* Single stat */
+/* /* Single stat  */
 .stat h3 {
   font-size: 36px;
   color: #00ff88;
@@ -209,5 +210,67 @@ body {
   opacity: 0.7;
 }
 
+.why-techwave {
+  padding: 120px 200px;
+  background: rgba(35, 14, 61, 1);
+  text-align: center;
+}
 
+.why-techwave h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
 
+/* /* Grid  */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  gap: 30px;
+}
+
+/* /* Card  */
+.feature-card {
+  background: rgba(45, 18, 78, 1);
+  border-radius: 18px;
+  padding: 40px;
+  text-align: left;
+}
+
+/* /* Taller first card  */
+.feature-card.tall {
+  grid-row: span 2;
+  
+}
+#u{
+    grid-column: span 2;
+}
+
+/* /* Wide card  */
+.feature-card.wide {
+  grid-column: span 2;
+ 
+}
+
+/* /* Icon  */
+.feature-card .icon {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* /* Title  */
+.feature-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Text  */
+.feature-card p {
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.75;
+}
+#i img{
+   max-width: 60px;
+}
+ 
