@@ -16,7 +16,11 @@ body {
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* Navbar */
+=======
+/* Navber */
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -31,9 +35,13 @@ body {
 }
 
 .logo span {
+<<<<<<< HEAD
   background: linear-gradient(90deg, #fb09b4, #9100f8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+=======
+  color: #fb09b4;
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 }
 
 .nav-links {
@@ -55,12 +63,15 @@ body {
   color: #fff;
   cursor: pointer;
 }
+<<<<<<< HEAD
 .menu-icon{
     display: none;
   font-size: 26px;
   cursor: pointer;
   
 }
+=======
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 
 /* HERO  */
 .hero {
@@ -73,11 +84,19 @@ body {
   overflow: hidden; 
 }
 
+<<<<<<< HEAD
 /* .hero::before {
   content: "";
   position: absolute;
   inset: 0;
 } */
+=======
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 
 .hero-content {
   position: relative;
@@ -153,12 +172,21 @@ body {
   padding: 10px 22px;
   border-radius: 25px;
   justify-content: center;
+<<<<<<< HEAD
   align-items: center;
   text-align: center;
   gap:5px;
 }
 
 
+=======
+    align-items: center;
+    text-align: center;
+    gap:5px;
+}
+
+/* ================= ABOUT SECTION ================= */
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 .about-section {
   padding: 120px 0;
   background: radial-gradient(circle at center, #230e3d, #140721);
@@ -171,6 +199,10 @@ body {
   max-width: 900px;
   margin: auto;
   padding: 50px 60px;
+<<<<<<< HEAD
+=======
+  /* background: linear-gradient(180deg, rgba(145,0,248,0.12), rgba(26,11,46,0.9)); */
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
   border-radius: 16px;
   
   
@@ -194,14 +226,21 @@ body {
   opacity: 0.6;
 }
 
+<<<<<<< HEAD
 
 .stats {
  
+=======
+/* /* ================= STATS ================= */
+.stats {
+ margin-top: 1px solid rgba(65, 37, 103, 1);
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
   max-width: 900px;
   margin: 120px auto 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
+<<<<<<< HEAD
   
 /* opacity: 0.1; */
 
@@ -211,13 +250,21 @@ body {
 
 
 /* Single stat  */
+=======
+}
+
+/* /* Single stat  */
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 .stat h3 {
   font-size: 36px;
   color: #00ff88;
   margin-bottom: 6px;
+<<<<<<< HEAD
   
   
 
+=======
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 }
 
 .stat span {
@@ -274,7 +321,11 @@ body {
   margin-bottom: 15px;
 }
 
+<<<<<<< HEAD
 /* Title  */
+=======
+/* /* Title  */
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 .feature-card h3 {
   font-size: 18px;
   margin-bottom: 10px;
@@ -289,7 +340,11 @@ body {
 #i img{
    max-width: 60px;
 }
+<<<<<<< HEAD
 
+=======
+/* ================= FEATURED EPISODES ================= */
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 
 .featured {
   padding: 120px 200px;
@@ -356,7 +411,11 @@ font-weight: 700;
   font-size: 12px;
   color: #00ff88;
 }
+<<<<<<< HEAD
 /* MEET THE HOST */
+=======
+/* ================= MEET THE HOST ================= */
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 
 .meet-host {
   padding: 120px 200px;
@@ -430,6 +489,7 @@ font-weight: 700;
 .host-social a:hover {
   background: #7c3aed;
 }
+<<<<<<< HEAD
 .techwave-footer {
   /* max-height: 412px;  matches Figma  */
   background: url("../assets/footer-bg.png") center / cover no-repeat;
@@ -637,6 +697,8 @@ button:hover {
 }
 
 
+=======
+>>>>>>> 763378c134bccc1db1196f0b959c80fd6f4cbc26
 
 
  
